@@ -21,24 +21,24 @@ const Home = ()=>{
                         </b>
                     </h1>
                     <div className="mt-5">
-                        <a href="" className="icon">
+                        <a href="https://github.com/chuks2630" className="icon">
                         <img
                             src="/images/github_3291695.png"
-                            alt=""
+                            alt="github icon"
                             width={50}
                             style={{ borderRadius: "50%", background: "white" }}
                             className="me-2 p-1"
                         />
                         </a>
-                        <a href="" className="icon">
+                        <a href="www.linkedin.com/in/chukwuma-ike-43014227b" className="icon">
                         <img
                             src="/images/linkedin-original.svg"
-                            alt=""
+                            alt="linkedin icon"
                             width={50}
                             className="me-2 p-1"
                         />
                         </a>
-                        <a href="" className="icon">
+                        <a href="https://www.instagram.com/chuks_meyor/profilecard/?igsh=MTRtc2t1aXc2bjN6cA==" className="icon">
                         <img
                             src="/images/instagram.svg"
                             alt="instagram icon"
@@ -46,10 +46,10 @@ const Home = ()=>{
                             className="me-2"
                         />
                         </a>
-                        <a href="" className="icon">
+                        <a href="mailto:tstorm2630@gmail.com" className="icon">
                         <img
                             src="/images/gmail.svg"
-                            alt=""
+                            alt="gmail icon"
                             width={50}
                             style={{ borderRadius: "50%", background: "white" }}
                             className="me-2"
