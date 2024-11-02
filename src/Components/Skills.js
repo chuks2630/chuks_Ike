@@ -27,32 +27,32 @@ const Skills= ()=>{
     return(
         <>
             <div className="row mt-4">
-                <div className="col">
+                <div className="col ">
                     <h3 className="text-center">SKILLS</h3>
                     <div className="row mt-4 justify-content-center">
-                    <div className="col-8 offset-md-1">
-                        <div className="row p-2 text-center">
-                        <div className="col-md-2">
+                    <div className="col-8 offset-md-1 bg-dark">
+                        <div className="row p-2 text-center gx-0 ">
+                        <div className="col-md-3 p-2">
                             <img src="/images/file-type-html.svg" width={50} alt="html icon" />
                             <br />
                             <small>HTML</small>
                         </div>
-                        <div className="col-md-2">
+                        <div className="col-md-3 p-2">
                             <img src="/images/file-type-css.svg" width={50} alt="css icon" />
                             <br />
                             <small>CSS</small>
                         </div>
-                        <div className="col-md-2">
+                        <div className="col-md-3 p-2">
                             <img src="/images/javascript-js.svg" width={50} alt="Js icon" />
                             <br />
                             <small>JAVASCRIPT</small>
                         </div>
-                        <div className="col-md-2">
+                        <div className="col-md-3 p-2">
                             <img src="/images/php.svg" width={50} alt="Php icon" />
                             <br />
                             <small>PHP</small>
                         </div>
-                        <div className="col-md-2">
+                        <div className="col-md-3 p-2">
                             <img
                             src="/images/sql-database-generic.svg"
                             width={40}
@@ -61,9 +61,8 @@ const Skills= ()=>{
                             <br />
                             <small>SQL</small>
                         </div>
-                        </div>
-                        <div className="row p-2 text-center my-3">
-                        <div className="col-md-2">
+                        
+                        <div className="col-md-3 p-2">
                             <img
                             src="/images/bootstrap-plain-wordmark.svg"
                             width={50}
@@ -72,7 +71,7 @@ const Skills= ()=>{
                             <br />
                             <small>BOOTSTRAP</small>
                         </div>
-                        <div className="col-md-2">
+                        <div className="col-md-3 p-2">
                             <img
                             src="/images/jquery-plain-wordmark.svg"
                             width={50}
@@ -81,17 +80,17 @@ const Skills= ()=>{
                             <br />
                             <small>JQUERY</small>
                         </div>
-                        <div className="col-md-2">
+                        <div className="col-md-3 p-2">
                             <img src="/images/react.svg" width={60} alt="react icon" />
                             <br />
                             <small>REACT</small>
                         </div>
-                        <div className="col-md-2">
+                        <div className="col-md-3 p-2">
                             <img src="/images/laravel.svg" width={50} alt="laravel icon" />
                             <br />
                             <small>LARAVEL</small>
                         </div>
-                        <div className="col-md-2">
+                        <div className="col-md-3 p-2">
                             <img
                             src="/images/api.svg"
                             width={50}
@@ -101,9 +100,7 @@ const Skills= ()=>{
                             <br />
                             <small>API</small>
                         </div>
-                        </div>
-                        <div className="row p-2 text-center my-2">
-                        <div className="col-md-2">
+                        <div className="col-md-3 p-2">
                             <img
                             src="/images/mysql-original-wordmark.svg"
                             width={50}
@@ -112,7 +109,7 @@ const Skills= ()=>{
                             <br />
                             <small>MYSQL</small>
                         </div>
-                        <div className="col-md-2">
+                        <div className="col-md-3 p-2">
                             <img
                             src="/images/mongodb-original-wordmark.svg"
                             width={50}
@@ -121,12 +118,12 @@ const Skills= ()=>{
                             <br />
                             <small>MongoDB</small>
                         </div>
-                        <div className="col-md-2">
+                        <div className="col-md-3 p-2">
                             <img src="/images/postman.svg" width={50} alt="postman icon" />
                             <br />
                             <small>MongoDB</small>
                         </div>
-                        <div className="col-md-2">
+                        <div className="col-md-3 p-2">
                             <img
                             src="/images/mysqlworkbench.svg"
                             width={50}
@@ -135,13 +132,12 @@ const Skills= ()=>{
                             <br />
                             <small>MYSQL WORKBENCH</small>
                         </div>
-                        <div className="col-md-2">
+                        <div className="col-md-3 p-2">
                             <img src="/images/vs-code.svg" width={50} alt="vs-code icon" />
                             <br />
                             <small>VS CODE</small>
                         </div>
-                        <div className="col-md-2"></div>
-                        <div className="col-md-2 mt-3">
+                        <div className="col-md-3 p-2">
                             <img
                             src="/images/github.svg"
                             width={50}
@@ -152,12 +148,12 @@ const Skills= ()=>{
                             <br />
                             <small>GIT</small>
                         </div>
-                        <div className="col-md-2 mt-3">
+                        <div className="col-md-3 p-2">
                             <img src="/images/slack-icon.svg" width={50} alt="slack icon" />
                             <br />
                             <small>SLACK</small>
                         </div>
-                        <div className="col-md-2 mt-3">
+                        <div className="col-md-3 p-2">
                             <img src="/images/trello.svg" width={50} alt="trello icon" />
                             <br />
                             <small>TRELLO</small>

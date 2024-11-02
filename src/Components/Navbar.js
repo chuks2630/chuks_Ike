@@ -46,7 +46,7 @@ const Navbar = ()=>{
                             <NavLink to="/myjourney" exact activeClassName="active" className="nav-link">
                                My Journey
                             </NavLink>
-                            <a className="nav-link" target="_blank" href="https://drive.google.com/file/d/1r2J9dMD5qsNInnALN0lpuTetXxyClE_b/view?usp=drive_link">
+                            <a className="nav-link" target="_blank" rel="noreferrer noopener" href="https://drive.google.com/file/d/19i2d7qCAzTexdle-jBs9N-mEeG91P8Ds/view?usp=drive_link">
                             Resume
                             </a>
                         </div>

@@ -22,7 +22,7 @@ const About = ()=>{
                         <br />
                         <br />
                         When I'm not coding, I'm probably watching a Football Match,
-                        My hobbies are Litsening to Music, Playing with my Pet
+                        My hobbies are Litsening to Music, Litsening to a Podcast
                         and work on personal development. Let's collaborate and
                         bring creative ideas to life!
                     </p>

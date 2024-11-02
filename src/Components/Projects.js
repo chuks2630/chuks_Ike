@@ -14,10 +14,10 @@ const Projects = ()=>{
     return(
         <>
             
-            <div className="row mx-5 mt-3 p-2">
+            <div className="row mx-5 mt-3 p-2 ">
                 <h3 className="text-center my-3">PROJECTS</h3>
                 <div className="col">
-                <div className="row inner">
+                <div className="row inner bg-dark py-3">
                     <div className="col-md-6">
                     <div className="row mt-3">
                         <div className="col-7 offset-md-2 mt-5">
@@ -30,33 +30,41 @@ const Projects = ()=>{
                             Built with Html, CSS, Bootstrap, Jquery, Mysql and Laravel
                             framework.{" "}
                         </p>
+                        <div className="d-flex justify-content-around">
+                        <div>
                         <a
                             href="https://famarket.com.ng"
                             target="_blank"
+                            rel="noreferrer noopener"
                             className="btn btn-outline-danger me-2"
                         >
                             Live Demo
                         </a>
+                        </div>
+                        <div>
                         <a
                             href="https://github.com/chuks2630/famarket"
                             target="_blank"
+                            rel="noreferrer noopener"
                             className="btn btn-outline-secondary"
                         >
                             Github Repo
                         </a>
                         </div>
+                        </div>
+                        </div>
                     </div>
                     </div>
                     <div className="col-md-6">
                     <div className="row">
-                        <div className="col-md-10  proj">
+                        <div className="col-md-10  proj p-2">
                         <img
                             src="/images/Screenshot (2).png"
                             alt="project pics"
                             className="img-fluid"
                         />
                         </div>
-                        <div className="col-md-10  proj">
+                        <div className="col-md-10  proj p-2">
                         <img
                             src="/images/Screenshot (4).png"
                             alt="project pics"
@@ -70,7 +78,7 @@ const Projects = ()=>{
             </div>
             <div className="row m-5 p-2">
                 <div className="col">
-                <div className="row inner">
+                <div className="row inner bg-dark p-2">
                     <div className="col-md-6">
                     <div className="row mt-3">
                         <div className="col-7 offset-md-2 mt-5">
@@ -82,33 +90,41 @@ const Projects = ()=>{
                         <p>
                             Built with Html, CSS, Bootstrap, Jquery, Mysql and PHP OOP.{" "}
                         </p>
+                        <div className="d-flex justify-content-around">
+                        <div>
                         <a
                             href="#"
                             target="_blank"
+                            rel="noreferrer noopener"
                             className="btn btn-outline-danger me-2"
                         >
                             Live Demo
                         </a>
+                        </div>
+                        <div>
                         <a
                             href="https://github.com/chuks2630/kitchen-companion"
                             target="_blank"
+                            rel="noreferrer noopener"
                             className="btn btn-outline-secondary"
                         >
                             Github Repo
                         </a>
                         </div>
+                        </div>
+                        </div>
                     </div>
                     </div>
                     <div className="col-md-6">
                     <div className="row">
-                        <div className="col-md-10  proj">
+                        <div className="col-md-10  proj p-2">
                         <img
                             src="/images/Screenshot (6).png"
                             alt="project pics"
                             className="img-fluid"
                         />
                         </div>
-                        <div className="col-md-10  proj">
+                        <div className="col-md-10  proj p-2">
                         <img
                             src="/images/Screenshot (8).png"
                             alt="project pics"
